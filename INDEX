@@ -1,0 +1,18 @@
+ branchLars            Select cost-efficient variables using Branching LARS method
+ standardize           Standardize the predictors to have mean 0 and norm 1; 
+                       standardize the response to have mean 0
+ standardizeG          Standardize the squared and two-way interaction terms of the predictors; 
+                       construct cost input variable accordingly
+ unstandardize         Change the regression coefficient to the original (un-standardized) scale
+ drawTree              Plot the searching tree
+ buildCostFun          Calculate the cost given the information of which variables are selected; 
+                       can be user-provided
+ branchLars-internal   Internal branchLars functions
+ print.branchLars      Print the regression coefficients in standardized scale
+ summary.branchLars    Summary of the optimal total loss
+ predict.branchLars    Predict the response value given a new data set
+ bic                   Calculates the BIC value for a model selected by \code{branchLars} function
+ cp                    Calculate Cp value for a model selected by \code{branchLars} function
+ lambdaOpt             Given a user defined gamma value, find optimal tuning parameter lambda 
+                       based on BIC or cp
+ diabetes              A data set containing blood and other measurements in diabetics

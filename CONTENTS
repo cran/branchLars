@@ -1,0 +1,84 @@
+Entry: branchLars
+Aliases: branchLars
+Keywords: regression
+Description: Select Cost-efficient Variables Using Branching LARS Method
+URL: ../../../library/branchLars/chm/branchLars.html
+
+Entry: standardize
+Aliases: standardize
+Keywords: manip
+Description: standardize the predictors to have mean 0 and norm 1; standardize the response to have mean 0;
+URL: ../../../library/branchLars/chm/standardize.html
+
+Entry: standardizeG
+Aliases: standardizeG
+Keywords: manip
+Description: Standardize the squared and two-way interaction terms of the predictors; construct cost input variable accordingly;
+URL: ../../../library/branchLars/chm/standardizeG.html
+
+Entry: unstandardize
+Aliases: unstandardize
+Keywords: manip
+Description: changes the estimated regression coefficients from standardized scale to original scale.
+URL: ../../../library/branchLars/chm/unstandardize.html
+
+Entry: drawTree
+Aliases: drawTree
+Keywords: tree
+Description: plot the search tree
+URL: ../../../library/branchLars/chm/drawTree.html
+
+Entry: buildCostFun
+Aliases: buildCostFun
+Keywords: methods
+Description: calculate the cost given the information of which variables are selected; can be user-provided
+URL: ../../../library/branchLars/chm/buildCostFun.html
+
+Entry: branchLars-internal
+Aliases: branchOpt changeOrderX Loss12 buildChoose
+Keywords: internal
+Description: Internal branchLars functions
+URL: ../../../library/branchLars/chm/branchLars-internal.html
+
+Entry: print.branchLars
+Aliases: print.branchLars
+Keywords: print
+Description: shows the regression coefficients in standardized scale
+URL: ../../../library/branchLars/chm/print.branchLars.html
+
+Entry: summary.branchLars
+Aliases: summary.branchLars
+Keywords: regression
+Description: shows the optimal total loss and its three components
+URL: ../../../library/branchLars/chm/summary.branchLars.html
+
+Entry: predict.branchLars
+Aliases: predict.branchLars
+Keywords: utilities
+Description: predict the response value given a new data set
+URL: ../../../library/branchLars/chm/predict.branchLars.html
+
+Entry: bic
+Aliases: bic
+Keywords: utilities
+Description: calculate BIC value for a model selected by branchLars function
+URL: ../../../library/branchLars/chm/bic.html
+
+Entry: cp
+Aliases: cp
+Keywords: utilities
+Description: calculate Cp value for a model selected by branchLars function
+URL: ../../../library/branchLars/chm/cp.html
+
+Entry: lambdaOpt
+Aliases: lambdaOpt
+Keywords: optimize
+Description: given a user defined gamma value, find optimal tuning parameter lambda based on BIC
+URL: ../../../library/branchLars/chm/lambdaOpt.html
+
+Entry: diabetes
+Aliases: diabetes
+Keywords: datasets
+Description: Blood and other measurements in diabetics
+URL: ../../../library/branchLars/chm/diabetes.html
+

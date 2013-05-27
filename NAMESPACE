@@ -1,0 +1,13 @@
+
+export(branchLars,standardize,standardizeG,unstandardize,drawTree,buildCostFun,branchOpt,changeOrderX,Loss12,buildChoose,
+       print.branchLars,summary.branchLars,predict.branchLars,bic,cp,lambdaOpt)
+       
+importFrom(stats, predict)
+
+S3method("print","branchLars")
+S3method("predict","branchLars")
+S3method("summary","branchLars")
+
+
+
+
